@@ -47,13 +47,21 @@ awal-app/
 ├── package.json      → project config + dependencies (just Express)
 ├── server.js          → tiny Express server (serves public/ and the word data)
 ├── data/
-│   └── words.json      → the word dataset
+│   └── words.json      → the word dataset (source of truth — edit this one)
 ├── public/
 │   ├── index.html       → app layout
 │   ├── style.css        → styling
-│   └── script.js        → all the interactive logic (search, levels, dialects, favorites, practice)
+│   └── script.js        → interactive logic (search, levels, dialects, favorites, practice) — fetches /api/words
+├── docs/
+│   └── (same app, plus its own words.json copy) → a fully static build for GitHub Pages,
+│      which has no server at all, so it fetches words.json as a plain file instead of an API route
 └── README.md
 ```
+
+`public/` (used with `server.js`) and `docs/` (used by GitHub Pages) are two copies of the same app
+for two different hosting styles. If you edit `public/index.html`, `style.css`, or `script.js`, copy
+the same change into `docs/` if you're using GitHub Pages — and if you edit `data/words.json`, also
+copy it to `docs/words.json`.
 
 ## Extending the word list
 
@@ -80,7 +88,12 @@ To add a word: add a new object with a unique `id`. Any `dialects` value you lea
 automatically fall back to the `standard` form in the app, labeled "general Tamazight." No code
 changes are needed — the frontend reads this file directly.
 
-## Deploying it for free (GitHub → Render)
+## Deploying it for free (GitHub Pages — no card, ever)
+
+Awal's server barely does anything — it just serves static files and one JSON file. That means it
+can run with **no server at all**, which sidesteps the card-verification prompts that Render and
+Railway now show even on their "free" tiers (see note below). The `docs/` folder in this repo is a
+ready-to-go static build for exactly this.
 
 1. **Push this project to a new GitHub repository.**
    ```bash
@@ -91,17 +104,28 @@ changes are needed — the frontend reads this file directly.
    git remote add origin https://github.com/<your-username>/<your-repo>.git
    git push -u origin main
    ```
-2. **Create a free account at [render.com](https://render.com)** and connect your GitHub account.
-3. Click **New → Web Service**, pick your repository.
-4. Render will detect it's a Node app. Use these settings:
-   - **Build Command:** `npm install`
-   - **Start Command:** `npm start`
-5. Click **Create Web Service**. Render will build and deploy automatically, and gives you a public
-   URL (e.g. `https://awal-app.onrender.com`).
-6. From then on, every `git push` to `main` automatically redeploys the site.
+2. On GitHub, go to your repo's **Settings → Pages**.
+3. Under "Build and deployment", set **Source** to "Deploy from a branch".
+4. Set **Branch** to `main` and the folder to **`/docs`**, then click **Save**.
+5. GitHub will build and publish the site — after a minute or two you'll get a public URL at
+   `https://<your-username>.github.io/<your-repo>/`.
+6. From then on, every `git push` to `main` automatically redeploys the site. No account
+   verification, no card, no usage limits to worry about — it's a permanent feature of any public
+   GitHub repo.
 
-(Railway works the same way: connect the GitHub repo, it auto-detects `npm start`, and gives you a
-public URL. Either is a good free option for a small app like this.)
+If you ever change `data/words.json`, `public/index.html`, `public/style.css`, or `public/script.js`,
+copy the same changes into the matching files in `docs/` (see "Project structure" above) and push —
+the two folders are kept in sync manually, not automatically.
+
+### Alternative: Render or Railway (may ask for a card)
+
+Render and Railway both offer a real, usable free tier and will auto-deploy a Node app like this one
+straight from GitHub (Build Command `npm install`, Start Command `npm start`). In practice, though,
+**both now ask for credit card verification on many accounts** — Render sometimes prompts for a card
+even when the free "Instance Type" is correctly selected (an anti-fraud check, not a hidden charge —
+you won't be billed as long as you stay on the free tier), and Railway has required a card since
+2023. If you don't want to hand over a card at all, GitHub Pages above is the reliable no-card route
+for this app.
 
 ## Notes on scope
 
