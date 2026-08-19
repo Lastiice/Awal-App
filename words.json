@@ -1,0 +1,1500 @@
+[
+  {
+    "id": "hello",
+    "english": "hello",
+    "tifinagh": "ⴰⵣⵓⵍ",
+    "phonetic": "ah-ZOOL",
+    "category": "greetings",
+    "level": 1,
+    "dialects": {
+      "standard": "azul",
+      "tashelhit": "azul flak",
+      "tassousiyt": "azul flak",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "thank-you",
+    "english": "thank you",
+    "tifinagh": "ⵜⴰⵏⵎⵎⵉⵔⵜ",
+    "phonetic": "tan-MEER-t",
+    "category": "greetings",
+    "level": 1,
+    "dialects": {
+      "standard": "tanmmirt",
+      "tashelhit": "tanmmirt nak",
+      "tassousiyt": "tanmmirt nak",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "please",
+    "english": "please",
+    "tifinagh": null,
+    "phonetic": "ah-FAHK",
+    "category": "greetings",
+    "level": 1,
+    "dialects": {
+      "standard": "afak",
+      "tashelhit": "ir astoufit",
+      "tassousiyt": "ir astoufit",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "yes",
+    "english": "yes",
+    "tifinagh": null,
+    "phonetic": "ee-YAH",
+    "category": "greetings",
+    "level": 1,
+    "dialects": {
+      "standard": "iyyah",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "no",
+    "english": "no",
+    "tifinagh": null,
+    "phonetic": "oo-HOO",
+    "category": "greetings",
+    "level": 1,
+    "dialects": {
+      "standard": "uhu",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "sorry",
+    "english": "sorry",
+    "tifinagh": null,
+    "phonetic": "SEM-hee",
+    "category": "greetings",
+    "level": 1,
+    "dialects": {
+      "standard": "semhi",
+      "tashelhit": "samhiyi",
+      "tassousiyt": "samhiyi",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "goodbye",
+    "english": "goodbye",
+    "tifinagh": null,
+    "phonetic": "ar too-FAHT",
+    "category": "greetings",
+    "level": 1,
+    "dialects": {
+      "standard": "ar tufat",
+      "tashelhit": "artufat",
+      "tassousiyt": "artufat",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "welcome",
+    "english": "you're welcome",
+    "tifinagh": null,
+    "phonetic": "mer-HEH-bah",
+    "category": "greetings",
+    "level": 1,
+    "dialects": {
+      "standard": "mrehba",
+      "tashelhit": "assourf",
+      "tassousiyt": "assourf",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "excuse-me",
+    "english": "excuse me",
+    "tifinagh": null,
+    "phonetic": "SEMH ee-yee",
+    "category": "greetings",
+    "level": 1,
+    "dialects": {
+      "standard": "semh iyi",
+      "tashelhit": "ssurfid",
+      "tassousiyt": "ssurfid",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "one",
+    "english": "one",
+    "tifinagh": "ⵢⴰⵏ",
+    "phonetic": "YAHN",
+    "category": "numbers",
+    "level": 1,
+    "dialects": {
+      "standard": "yan",
+      "tashelhit": "yan",
+      "tassousiyt": "yan",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "two",
+    "english": "two",
+    "tifinagh": "ⵙⵉⵏ",
+    "phonetic": "SEEN",
+    "category": "numbers",
+    "level": 1,
+    "dialects": {
+      "standard": "sin",
+      "tashelhit": "sin",
+      "tassousiyt": "sin",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "three",
+    "english": "three",
+    "tifinagh": "ⴽⵕⴰⴹ",
+    "phonetic": "KRAHDH",
+    "category": "numbers",
+    "level": 1,
+    "dialects": {
+      "standard": "kraḍ",
+      "tashelhit": "krad",
+      "tassousiyt": "krad",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "four",
+    "english": "four",
+    "tifinagh": "ⴽⴽⵓⵣ",
+    "phonetic": "KOOZ",
+    "category": "numbers",
+    "level": 1,
+    "dialects": {
+      "standard": "kkuz",
+      "tashelhit": "koz",
+      "tassousiyt": "koz",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "five",
+    "english": "five",
+    "tifinagh": "ⵙⵎⵎⵓⵙ",
+    "phonetic": "SMOOS",
+    "category": "numbers",
+    "level": 1,
+    "dialects": {
+      "standard": "smmus",
+      "tashelhit": "smous",
+      "tassousiyt": "smous",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "six",
+    "english": "six",
+    "tifinagh": "ⵚⴹⵉⵚ",
+    "phonetic": "SDEES",
+    "category": "numbers",
+    "level": 1,
+    "dialects": {
+      "standard": "ṣḍiṣ",
+      "tashelhit": "sdis",
+      "tassousiyt": "sdis",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "seven",
+    "english": "seven",
+    "tifinagh": "ⵙⴰ",
+    "phonetic": "SAH",
+    "category": "numbers",
+    "level": 1,
+    "dialects": {
+      "standard": "sa",
+      "tashelhit": "sa",
+      "tassousiyt": "sa",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "eight",
+    "english": "eight",
+    "tifinagh": "ⵜⴰⵎ",
+    "phonetic": "TAHM",
+    "category": "numbers",
+    "level": 1,
+    "dialects": {
+      "standard": "tam",
+      "tashelhit": "tam",
+      "tassousiyt": "tam",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "nine",
+    "english": "nine",
+    "tifinagh": "ⵜⵥⴰ",
+    "phonetic": "TZAH",
+    "category": "numbers",
+    "level": 1,
+    "dialects": {
+      "standard": "tẓa",
+      "tashelhit": "tza",
+      "tassousiyt": "tza",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "ten",
+    "english": "ten",
+    "tifinagh": "ⵎⵔⴰⵡ",
+    "phonetic": "MRAW",
+    "category": "numbers",
+    "level": 1,
+    "dialects": {
+      "standard": "mraw",
+      "tashelhit": "mraw",
+      "tassousiyt": "mraw",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "father",
+    "english": "father",
+    "tifinagh": null,
+    "phonetic": "BAH-bah",
+    "category": "family",
+    "level": 1,
+    "dialects": {
+      "standard": "baba",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "mother",
+    "english": "mother",
+    "tifinagh": null,
+    "phonetic": "YEE-mah",
+    "category": "family",
+    "level": 1,
+    "dialects": {
+      "standard": "yimma",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "water",
+    "english": "water",
+    "tifinagh": "ⴰⵎⴰⵏ",
+    "phonetic": "ah-MAHN",
+    "category": "food",
+    "level": 1,
+    "dialects": {
+      "standard": "aman",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "bread",
+    "english": "bread",
+    "tifinagh": "ⴰⵖⵔⵓⵎ",
+    "phonetic": "agh-ROOM",
+    "category": "food",
+    "level": 1,
+    "dialects": {
+      "standard": "aɣrum",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "house",
+    "english": "house",
+    "tifinagh": null,
+    "phonetic": "tee-GHEM-mee",
+    "category": "everyday",
+    "level": 1,
+    "dialects": {
+      "standard": "tigemmi",
+      "tarifit": "axxam"
+    }
+  },
+  {
+    "id": "brother",
+    "english": "brother",
+    "tifinagh": null,
+    "phonetic": "g-MAH",
+    "category": "family",
+    "level": 2,
+    "dialects": {
+      "standard": "gma",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "sister",
+    "english": "sister",
+    "tifinagh": null,
+    "phonetic": "oolt-MAH",
+    "category": "family",
+    "level": 2,
+    "dialects": {
+      "standard": "ultma",
+      "tarifit": "wecma"
+    }
+  },
+  {
+    "id": "son",
+    "english": "son",
+    "tifinagh": null,
+    "phonetic": "YEE-wee",
+    "category": "family",
+    "level": 2,
+    "dialects": {
+      "standard": "yiwi",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "daughter",
+    "english": "daughter",
+    "tifinagh": null,
+    "phonetic": "EEL-lee",
+    "category": "family",
+    "level": 2,
+    "dialects": {
+      "standard": "illi",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "husband",
+    "english": "husband",
+    "tifinagh": null,
+    "phonetic": "ar-GHAZ",
+    "category": "family",
+    "level": 2,
+    "dialects": {
+      "standard": "argaz",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "wife",
+    "english": "wife",
+    "tifinagh": null,
+    "phonetic": "tam-GHART",
+    "category": "family",
+    "level": 2,
+    "dialects": {
+      "standard": "tamghart",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "grandfather",
+    "english": "grandfather",
+    "tifinagh": null,
+    "phonetic": "jed-DD",
+    "category": "family",
+    "level": 2,
+    "dialects": {
+      "standard": "jdd",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "grandmother",
+    "english": "grandmother",
+    "tifinagh": null,
+    "phonetic": "JEE-dah",
+    "category": "family",
+    "level": 2,
+    "dialects": {
+      "standard": "jidda",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "uncle",
+    "english": "uncle",
+    "tifinagh": null,
+    "phonetic": "KHA-lee",
+    "category": "family",
+    "level": 2,
+    "dialects": {
+      "standard": "khali",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "aunt",
+    "english": "aunt",
+    "tifinagh": null,
+    "phonetic": "KHAL-tee",
+    "category": "family",
+    "level": 2,
+    "dialects": {
+      "standard": "khalti",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "baby",
+    "english": "baby",
+    "tifinagh": null,
+    "phonetic": "ab-JOOJ",
+    "category": "family",
+    "level": 2,
+    "dialects": {
+      "standard": "abjjuj",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "family",
+    "english": "family",
+    "tifinagh": null,
+    "phonetic": "TOW-jah",
+    "category": "family",
+    "level": 2,
+    "dialects": {
+      "standard": "tawja",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "black",
+    "english": "black",
+    "tifinagh": null,
+    "phonetic": "ib-RAHN",
+    "category": "colors",
+    "level": 2,
+    "dialects": {
+      "standard": "ibrran",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "blue",
+    "english": "blue",
+    "tifinagh": null,
+    "phonetic": "az-REH-kee",
+    "category": "colors",
+    "level": 2,
+    "dialects": {
+      "standard": "azrqiy",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "green",
+    "english": "green",
+    "tifinagh": null,
+    "phonetic": "az-GZAW",
+    "category": "colors",
+    "level": 2,
+    "dialects": {
+      "standard": "azgzaw",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "red",
+    "english": "red",
+    "tifinagh": null,
+    "phonetic": "az-GAHR",
+    "category": "colors",
+    "level": 2,
+    "dialects": {
+      "standard": "azggar",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "white",
+    "english": "white",
+    "tifinagh": null,
+    "phonetic": "im-LOOL",
+    "category": "colors",
+    "level": 2,
+    "dialects": {
+      "standard": "imlloul",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "yellow",
+    "english": "yellow",
+    "tifinagh": null,
+    "phonetic": "as-FREE",
+    "category": "colors",
+    "level": 2,
+    "dialects": {
+      "standard": "asfriy",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "milk",
+    "english": "milk",
+    "tifinagh": null,
+    "phonetic": "leh-LEEB",
+    "category": "food",
+    "level": 2,
+    "dialects": {
+      "standard": "lḥlib",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "tea",
+    "english": "tea",
+    "tifinagh": null,
+    "phonetic": "ah-TIE",
+    "category": "food",
+    "level": 2,
+    "dialects": {
+      "standard": "atay",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "meat",
+    "english": "meat",
+    "tifinagh": null,
+    "phonetic": "ak-SOOM",
+    "category": "food",
+    "level": 2,
+    "dialects": {
+      "standard": "aksum",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "couscous",
+    "english": "couscous",
+    "tifinagh": null,
+    "phonetic": "SEK-soo",
+    "category": "food",
+    "level": 2,
+    "dialects": {
+      "standard": "seksu",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "honey",
+    "english": "honey",
+    "tifinagh": null,
+    "phonetic": "tah-MENT",
+    "category": "food",
+    "level": 2,
+    "dialects": {
+      "standard": "tament",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "good",
+    "english": "good",
+    "tifinagh": null,
+    "phonetic": "EESH-wah",
+    "category": "adjectives",
+    "level": 2,
+    "dialects": {
+      "standard": "ichwa",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "bad",
+    "english": "bad",
+    "tifinagh": null,
+    "phonetic": "eekh-SHEN",
+    "category": "adjectives",
+    "level": 2,
+    "dialects": {
+      "standard": "ikhchn",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "big",
+    "english": "big",
+    "tifinagh": null,
+    "phonetic": "eem-KOOR",
+    "category": "adjectives",
+    "level": 2,
+    "dialects": {
+      "standard": "imqqour",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "small",
+    "english": "small",
+    "tifinagh": null,
+    "phonetic": "eem-ZEE",
+    "category": "adjectives",
+    "level": 2,
+    "dialects": {
+      "standard": "imzziy",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "sun",
+    "english": "sun",
+    "tifinagh": "ⵜⴰⴼⵓⴽⵜ",
+    "phonetic": "tah-FOOKT",
+    "category": "nature",
+    "level": 3,
+    "dialects": {
+      "standard": "tafukt",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "moon",
+    "english": "moon",
+    "tifinagh": "ⴰⵢⵢⵓⵔ",
+    "phonetic": "ai-YOOR",
+    "category": "nature",
+    "level": 3,
+    "dialects": {
+      "standard": "ayyur",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "mountain",
+    "english": "mountain",
+    "tifinagh": "ⴰⴷⵔⴰⵔ",
+    "phonetic": "ah-DRAHR",
+    "category": "nature",
+    "level": 3,
+    "dialects": {
+      "standard": "adrar",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "river",
+    "english": "river",
+    "tifinagh": null,
+    "phonetic": "ah-SEEF",
+    "category": "nature",
+    "level": 3,
+    "dialects": {
+      "standard": "asif",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "sea",
+    "english": "sea",
+    "tifinagh": null,
+    "phonetic": "leh-BAHR",
+    "category": "nature",
+    "level": 3,
+    "dialects": {
+      "standard": "lbeḥr",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "tree",
+    "english": "tree",
+    "tifinagh": null,
+    "phonetic": "tash-JAHRT",
+    "category": "nature",
+    "level": 3,
+    "dialects": {
+      "standard": "tachjart",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "stars",
+    "english": "stars",
+    "tifinagh": null,
+    "phonetic": "it-RAHN",
+    "category": "nature",
+    "level": 3,
+    "dialects": {
+      "standard": "itran",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "rain",
+    "english": "rain",
+    "tifinagh": null,
+    "phonetic": "an-ZAHR",
+    "category": "weather",
+    "level": 3,
+    "dialects": {
+      "standard": "anzar",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "snow",
+    "english": "snow",
+    "tifinagh": null,
+    "phonetic": "ad-FEL",
+    "category": "weather",
+    "level": 3,
+    "dialects": {
+      "standard": "adfel",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "cold",
+    "english": "cold",
+    "tifinagh": null,
+    "phonetic": "ah-sem-MIDH",
+    "category": "weather",
+    "level": 3,
+    "dialects": {
+      "standard": "asemmiḍ",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "hot",
+    "english": "hot",
+    "tifinagh": null,
+    "phonetic": "ih-MAH l-HAL",
+    "category": "weather",
+    "level": 3,
+    "dialects": {
+      "standard": "iḥma lḥal",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "monday",
+    "english": "Monday",
+    "tifinagh": null,
+    "phonetic": "let-NINE",
+    "category": "days",
+    "level": 3,
+    "dialects": {
+      "standard": "letnayn",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "tuesday",
+    "english": "Tuesday",
+    "tifinagh": null,
+    "phonetic": "t-lah-TAH",
+    "category": "days",
+    "level": 3,
+    "dialects": {
+      "standard": "ttlata",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "wednesday",
+    "english": "Wednesday",
+    "tifinagh": null,
+    "phonetic": "lar-BAH-ah",
+    "category": "days",
+    "level": 3,
+    "dialects": {
+      "standard": "larbaa",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "thursday",
+    "english": "Thursday",
+    "tifinagh": null,
+    "phonetic": "lekh-MEES",
+    "category": "days",
+    "level": 3,
+    "dialects": {
+      "standard": "lkhmis",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "friday",
+    "english": "Friday",
+    "tifinagh": null,
+    "phonetic": "jeh-MAH-ah",
+    "category": "days",
+    "level": 3,
+    "dialects": {
+      "standard": "jjemaa",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "saturday",
+    "english": "Saturday",
+    "tifinagh": null,
+    "phonetic": "SEBT",
+    "category": "days",
+    "level": 3,
+    "dialects": {
+      "standard": "ssebt",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "sunday",
+    "english": "Sunday",
+    "tifinagh": null,
+    "phonetic": "lah-HED",
+    "category": "days",
+    "level": 3,
+    "dialects": {
+      "standard": "lhedd",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "tall",
+    "english": "tall",
+    "tifinagh": null,
+    "phonetic": "eer-ZEEF",
+    "category": "adjectives",
+    "level": 3,
+    "dialects": {
+      "standard": "irzzif",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "short",
+    "english": "short",
+    "tifinagh": null,
+    "phonetic": "eeg-ZAL",
+    "category": "adjectives",
+    "level": 3,
+    "dialects": {
+      "standard": "igzzal",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "fast",
+    "english": "fast",
+    "tifinagh": null,
+    "phonetic": "ee-SER-bee",
+    "category": "adjectives",
+    "level": 3,
+    "dialects": {
+      "standard": "iserbi",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "old",
+    "english": "old",
+    "tifinagh": null,
+    "phonetic": "af-KEER",
+    "category": "adjectives",
+    "level": 3,
+    "dialects": {
+      "standard": "afqqir",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "young",
+    "english": "young",
+    "tifinagh": null,
+    "phonetic": "af-ROOGH",
+    "category": "adjectives",
+    "level": 3,
+    "dialects": {
+      "standard": "afrough",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "clean",
+    "english": "clean",
+    "tifinagh": null,
+    "phonetic": "een-KEE",
+    "category": "adjectives",
+    "level": 3,
+    "dialects": {
+      "standard": "inqqi",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "dirty",
+    "english": "dirty",
+    "tifinagh": null,
+    "phonetic": "yoo-SEKH",
+    "category": "adjectives",
+    "level": 3,
+    "dialects": {
+      "standard": "yousekh",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "easy",
+    "english": "easy",
+    "tifinagh": null,
+    "phonetic": "eer-KHAH",
+    "category": "adjectives",
+    "level": 4,
+    "dialects": {
+      "standard": "irkha",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "difficult",
+    "english": "difficult",
+    "tifinagh": null,
+    "phonetic": "eesh-KAH",
+    "category": "adjectives",
+    "level": 4,
+    "dialects": {
+      "standard": "ichqqa",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "expensive",
+    "english": "expensive",
+    "tifinagh": null,
+    "phonetic": "eegh-LAH",
+    "category": "adjectives",
+    "level": 4,
+    "dialects": {
+      "standard": "ighla",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "cheap",
+    "english": "cheap",
+    "tifinagh": null,
+    "phonetic": "ee-REKHS",
+    "category": "adjectives",
+    "level": 4,
+    "dialects": {
+      "standard": "irekhs",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "sweet",
+    "english": "sweet",
+    "tifinagh": null,
+    "phonetic": "t-HLOO",
+    "category": "adjectives",
+    "level": 4,
+    "dialects": {
+      "standard": "thlou",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "bitter",
+    "english": "bitter",
+    "tifinagh": null,
+    "phonetic": "is-MOOM",
+    "category": "adjectives",
+    "level": 4,
+    "dialects": {
+      "standard": "ismmoum",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "sour",
+    "english": "sour",
+    "tifinagh": null,
+    "phonetic": "ee-HAMD",
+    "category": "adjectives",
+    "level": 4,
+    "dialects": {
+      "standard": "iḥamd",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "full",
+    "english": "full",
+    "tifinagh": null,
+    "phonetic": "ee-AH-mer",
+    "category": "adjectives",
+    "level": 4,
+    "dialects": {
+      "standard": "i3amr",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "empty",
+    "english": "empty",
+    "tifinagh": null,
+    "phonetic": "eekh-WAH",
+    "category": "adjectives",
+    "level": 4,
+    "dialects": {
+      "standard": "ikhwa",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "wet",
+    "english": "wet",
+    "tifinagh": null,
+    "phonetic": "ee-BEZG",
+    "category": "adjectives",
+    "level": 4,
+    "dialects": {
+      "standard": "ibezg",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "dry",
+    "english": "dry",
+    "tifinagh": null,
+    "phonetic": "eez-WAH",
+    "category": "adjectives",
+    "level": 4,
+    "dialects": {
+      "standard": "izwa",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "many",
+    "english": "many",
+    "tifinagh": null,
+    "phonetic": "mn-NAW",
+    "category": "adjectives",
+    "level": 4,
+    "dialects": {
+      "standard": "mnnaw",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "few",
+    "english": "few",
+    "tifinagh": null,
+    "phonetic": "ee-MEEK",
+    "category": "adjectives",
+    "level": 4,
+    "dialects": {
+      "standard": "imikk",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "slow",
+    "english": "slow / heavy",
+    "tifinagh": null,
+    "phonetic": "ee-ZAI",
+    "category": "adjectives",
+    "level": 4,
+    "dialects": {
+      "standard": "izzay",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "eat",
+    "english": "eat",
+    "tifinagh": null,
+    "phonetic": "AWGH",
+    "category": "verbs",
+    "level": 4,
+    "dialects": {
+      "standard": "awgh",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "drink",
+    "english": "drink",
+    "tifinagh": null,
+    "phonetic": "SOO",
+    "category": "verbs",
+    "level": 4,
+    "dialects": {
+      "standard": "su",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "go",
+    "english": "go",
+    "tifinagh": null,
+    "phonetic": "DOO",
+    "category": "verbs",
+    "level": 4,
+    "dialects": {
+      "standard": "ddu",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "come",
+    "english": "come",
+    "tifinagh": null,
+    "phonetic": "AWD",
+    "category": "verbs",
+    "level": 4,
+    "dialects": {
+      "standard": "awd",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "see",
+    "english": "see",
+    "tifinagh": null,
+    "phonetic": "an-NAI",
+    "category": "verbs",
+    "level": 4,
+    "dialects": {
+      "standard": "annay",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "sleep",
+    "english": "sleep",
+    "tifinagh": null,
+    "phonetic": "GEN",
+    "category": "verbs",
+    "level": 4,
+    "dialects": {
+      "standard": "gn",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "love",
+    "english": "love",
+    "tifinagh": null,
+    "phonetic": "leh-HOOB",
+    "category": "abstract",
+    "level": 5,
+    "dialects": {
+      "standard": "lhub",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "friend",
+    "english": "friend",
+    "tifinagh": null,
+    "phonetic": "am-dah-KOOL",
+    "category": "everyday",
+    "level": 5,
+    "dialects": {
+      "standard": "amdakkul",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "work",
+    "english": "work",
+    "tifinagh": null,
+    "phonetic": "lekh-DEM-ah",
+    "category": "everyday",
+    "level": 5,
+    "dialects": {
+      "standard": "lkhedma",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "school",
+    "english": "school",
+    "tifinagh": null,
+    "phonetic": "lem-DRAH-sah",
+    "category": "everyday",
+    "level": 5,
+    "dialects": {
+      "standard": "lmedrasa",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "money",
+    "english": "money",
+    "tifinagh": null,
+    "phonetic": "id-REE-men",
+    "category": "everyday",
+    "level": 5,
+    "dialects": {
+      "standard": "idrimen",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "market",
+    "english": "market",
+    "tifinagh": null,
+    "phonetic": "SOOK",
+    "category": "everyday",
+    "level": 5,
+    "dialects": {
+      "standard": "ssuq",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "road",
+    "english": "road",
+    "tifinagh": "ⴰⴱⵔⵉⴷ",
+    "phonetic": "ah-BREED",
+    "category": "everyday",
+    "level": 5,
+    "dialects": {
+      "standard": "abrid",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "foreign",
+    "english": "foreign",
+    "tifinagh": null,
+    "phonetic": "ab-rah-NEE",
+    "category": "adjectives",
+    "level": 5,
+    "dialects": {
+      "standard": "abrraniy",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "whole",
+    "english": "whole",
+    "tifinagh": null,
+    "phonetic": "kol-LOT",
+    "category": "adjectives",
+    "level": 5,
+    "dialects": {
+      "standard": "kollot",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "narrow",
+    "english": "narrow",
+    "tifinagh": null,
+    "phonetic": "id-DEEK",
+    "category": "adjectives",
+    "level": 5,
+    "dialects": {
+      "standard": "idiyq",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "wide",
+    "english": "wide",
+    "tifinagh": null,
+    "phonetic": "yoo-SAH",
+    "category": "adjectives",
+    "level": 5,
+    "dialects": {
+      "standard": "yous3a",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "thick",
+    "english": "thick",
+    "tifinagh": null,
+    "phonetic": "ID-nee",
+    "category": "adjectives",
+    "level": 5,
+    "dialects": {
+      "standard": "idni",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "thin",
+    "english": "thin",
+    "tifinagh": null,
+    "phonetic": "is-DEED",
+    "category": "adjectives",
+    "level": 5,
+    "dialects": {
+      "standard": "isdiid",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "circular",
+    "english": "circular",
+    "tifinagh": null,
+    "phonetic": "ee-BERM",
+    "category": "adjectives",
+    "level": 5,
+    "dialects": {
+      "standard": "iberrm",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "straight",
+    "english": "straight",
+    "tifinagh": null,
+    "phonetic": "in-GAH-dah",
+    "category": "adjectives",
+    "level": 5,
+    "dialects": {
+      "standard": "ingadda",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "dark",
+    "english": "dark",
+    "tifinagh": null,
+    "phonetic": "EEL-lahs",
+    "category": "adjectives",
+    "level": 5,
+    "dialects": {
+      "standard": "illas",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "word-speech",
+    "english": "word / speech",
+    "tifinagh": null,
+    "phonetic": "AH-wal",
+    "category": "everyday",
+    "level": 3,
+    "dialects": {
+      "standard": "awal",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "heart",
+    "english": "heart",
+    "tifinagh": null,
+    "phonetic": "OOR",
+    "category": "body",
+    "level": 3,
+    "dialects": {
+      "standard": "ur",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "head",
+    "english": "head",
+    "tifinagh": null,
+    "phonetic": "az-ed-JEEF",
+    "category": "body",
+    "level": 2,
+    "dialects": {
+      "standard": "azedjif",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "donkey",
+    "english": "donkey",
+    "tifinagh": null,
+    "phonetic": "agh-YOOR",
+    "category": "nature",
+    "level": 3,
+    "dialects": {
+      "standard": "aghyur",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "cow",
+    "english": "cow",
+    "tifinagh": null,
+    "phonetic": "ta-foo-NAST",
+    "category": "nature",
+    "level": 2,
+    "dialects": {
+      "standard": "tafunast",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "how-are-you",
+    "english": "how are you?",
+    "tifinagh": null,
+    "phonetic": "may-t-AH-need",
+    "category": "greetings",
+    "level": 1,
+    "dialects": {
+      "standard": "mayt3nid",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "everything-fine",
+    "english": "everything's fine",
+    "tifinagh": null,
+    "phonetic": "KOL-shee bee-KHEER",
+    "category": "greetings",
+    "level": 2,
+    "dialects": {
+      "standard": "kolshi bikhir",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "good-morning",
+    "english": "good morning",
+    "tifinagh": null,
+    "phonetic": "sbah l-KHEER",
+    "category": "greetings",
+    "level": 1,
+    "dialects": {
+      "standard": "sbah lkhir",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "ok",
+    "english": "OK / agreed",
+    "tifinagh": null,
+    "phonetic": "WAKH-ah",
+    "category": "greetings",
+    "level": 1,
+    "dialects": {
+      "standard": "wakha",
+      "tarifit": null
+    }
+  },
+  {
+    "id": "see-you-soon",
+    "english": "see you soon",
+    "tifinagh": null,
+    "phonetic": "ar teem-LEET",
+    "category": "greetings",
+    "level": 2,
+    "dialects": {
+      "standard": "ar timlit",
+      "tarifit": null
+    }
+  }
+]

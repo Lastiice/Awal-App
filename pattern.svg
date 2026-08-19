@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <!--
+    Subtle repeating background pattern inspired by traditional Amazigh
+    textile/rug motifs (Beni Ourain / Boujad style): lozenge (diamond)
+    shapes, zigzag "water/mountain" lines, and small cross/dot accents.
+    Colors match the app's Amazigh flag + terracotta accent palette.
+    Rendered at low opacity so it reads as texture, not decoration on top
+    of content.
+  -->
+  <g fill="none" stroke-width="1.4" opacity="0.55">
+    <!-- large lozenge outline -->
+    <path d="M60 8 L104 60 L60 112 L16 60 Z" stroke="#c1622d" />
+    <!-- inner lozenge -->
+    <path d="M60 30 L82 60 L60 90 L38 60 Z" stroke="#1c6ca8" />
+    <!-- center cross accent -->
+    <path d="M60 46 L60 74 M46 60 L74 60" stroke="#3f8f4f" />
+    <!-- corner dots -->
+    <circle cx="60" cy="8" r="2.5" fill="#e0ab3c" stroke="none" />
+    <circle cx="104" cy="60" r="2.5" fill="#e0ab3c" stroke="none" />
+    <circle cx="60" cy="112" r="2.5" fill="#e0ab3c" stroke="none" />
+    <circle cx="16" cy="60" r="2.5" fill="#e0ab3c" stroke="none" />
+    <!-- zigzag border top -->
+    <path d="M0 4 L10 12 L20 4 L30 12 L40 4 L50 12 L60 4 L70 12 L80 4 L90 12 L100 4 L110 12 L120 4"
+          stroke="#b8412c" stroke-width="1.1" />
+    <!-- zigzag border bottom -->
+    <path d="M0 116 L10 108 L20 116 L30 108 L40 116 L50 108 L60 116 L70 108 L80 116 L90 108 L100 116 L110 108 L120 116"
+          stroke="#b8412c" stroke-width="1.1" />
+  </g>
+</svg>
